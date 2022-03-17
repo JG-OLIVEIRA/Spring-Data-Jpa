@@ -35,6 +35,10 @@ public class Cargo {
 		this.descricao = descricao;
 	}
 
+	public List<Funcionario> getFuncionario() {
+		return funcionario;
+	}
+
 	@Override
 	public String toString() {
 		return "Cargo [id=" + id + ", descricao=" + descricao + "]";
