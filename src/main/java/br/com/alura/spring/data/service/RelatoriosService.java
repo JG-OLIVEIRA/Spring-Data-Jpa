@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import br.com.alura.spring.data.orm.Funcionario;
 import br.com.alura.spring.data.orm.FuncionarioProjecao;
 import br.com.alura.spring.data.repository.FuncionarioRepository;
-import ch.qos.logback.core.net.SyslogOutputStream;
 
 @Service
 public class RelatoriosService {
@@ -46,6 +45,7 @@ public class RelatoriosService {
                     break;
                 case 4:
                 pesquisafuncionarioSalario();
+                    break;
                 default:
                     system = false;
                     break;
