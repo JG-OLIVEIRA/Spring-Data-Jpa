@@ -63,6 +63,7 @@ public class RelatorioFuncionarioDinamico {
                 .or(SpecificationFuncionario.salario(salario))
                 .or(SpecificationFuncionario.dataContratacao(dataContratacao))
             );
+            
         funcionarios.forEach(System.out::println);
     }
 }

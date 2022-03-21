@@ -89,6 +89,5 @@ public class RelatoriosService {
         List<FuncionarioProjecao> list = funcionarioRepository.findFuncionarioSalario();
         list.forEach(f -> System.out.println("Funcionario: id: " + f.getId() 
         + " | nome " + f.getNome() + " | salário: " + f.getSalario()));
-
     }
 }
